@@ -16,11 +16,4 @@ public class TC001_ValidateLogin extends org.automation.base.DriverInstance {
 		login.pass(passwd);
 		login.signin();		
 	}	
-	
-	/*@DataProvider(name="Static")
-	public Object[][] testDataGenerator()
-	{
-		Object[][] data = {{"Uname","Pass"},{"Uname2","Pass2"},{"Uname3","Pass3"}};
-		return data;		
-	}*/
 }

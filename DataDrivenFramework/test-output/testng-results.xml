@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37171" started-at="2017-12-04T18:09:46Z" finished-at="2017-12-04T18:10:23Z">
+  <suite name="Default suite" duration-ms="64307" started-at="2019-02-04T13:20:50Z" finished-at="2019-02-04T13:21:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37171" started-at="2017-12-04T18:09:46Z" finished-at="2017-12-04T18:10:23Z">
+    <test name="Default test" duration-ms="64307" started-at="2019-02-04T13:20:50Z" finished-at="2019-02-04T13:21:55Z">
       <class name="org.automation.testcases.TC001_ValidateLogin">
-        <test-method status="PASS" signature="initiateDriverInstance()[pri:0, instance:org.automation.testcases.TC001_ValidateLogin@4f7d0008]" name="initiateDriverInstance" is-config="true" duration-ms="10918" started-at="2017-12-04T23:39:47Z" finished-at="2017-12-04T23:39:58Z">
+        <test-method status="PASS" signature="initiateDriverInstance()[pri:0, instance:org.automation.testcases.TC001_ValidateLogin@59ec2012]" name="initiateDriverInstance" is-config="true" duration-ms="10586" started-at="2019-02-04T18:50:52Z" finished-at="2019-02-04T18:51:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriverInstance -->
-        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC001_ValidateLogin@4f7d0008]" name="validateLogin" duration-ms="24961" started-at="2017-12-04T23:39:58Z" data-provider="XL" finished-at="2017-12-04T23:40:23Z">
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC001_ValidateLogin@59ec2012]" name="validateLogin" duration-ms="4101" started-at="2019-02-04T18:51:02Z" data-provider="XL" finished-at="2019-02-04T18:51:06Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method status="PASS" signature="closeDriverInstance()[pri:0, instance:org.automation.testcases.TC001_ValidateLogin@4f7d0008]" name="closeDriverInstance" is-config="true" duration-ms="0" started-at="2017-12-04T23:40:23Z" finished-at="2017-12-04T23:40:23Z">
+        <test-method status="PASS" signature="closeDriverInstance()[pri:0, instance:org.automation.testcases.TC001_ValidateLogin@59ec2012]" name="closeDriverInstance" is-config="true" duration-ms="1" started-at="2019-02-04T18:51:06Z" finished-at="2019-02-04T18:51:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverInstance -->
+        <test-method status="PASS" signature="initiateDriverInstance()[pri:0, instance:org.automation.testcases.TC001_ValidateLogin@59ec2012]" name="initiateDriverInstance" is-config="true" duration-ms="14664" started-at="2019-02-04T18:51:06Z" finished-at="2019-02-04T18:51:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverInstance -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC001_ValidateLogin@59ec2012]" name="validateLogin" duration-ms="17068" started-at="2019-02-04T18:51:21Z" data-provider="XL" finished-at="2019-02-04T18:51:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[skv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shubham]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="closeDriverInstance()[pri:0, instance:org.automation.testcases.TC001_ValidateLogin@59ec2012]" name="closeDriverInstance" is-config="true" duration-ms="0" started-at="2019-02-04T18:51:38Z" finished-at="2019-02-04T18:51:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverInstance -->
+        <test-method status="PASS" signature="initiateDriverInstance()[pri:0, instance:org.automation.testcases.TC001_ValidateLogin@59ec2012]" name="initiateDriverInstance" is-config="true" duration-ms="13622" started-at="2019-02-04T18:51:38Z" finished-at="2019-02-04T18:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverInstance -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcases.TC001_ValidateLogin@59ec2012]" name="validateLogin" duration-ms="3028" started-at="2019-02-04T18:51:52Z" data-provider="XL" finished-at="2019-02-04T18:51:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shubham]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shubham]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="closeDriverInstance()[pri:0, instance:org.automation.testcases.TC001_ValidateLogin@59ec2012]" name="closeDriverInstance" is-config="true" duration-ms="0" started-at="2019-02-04T18:51:55Z" finished-at="2019-02-04T18:51:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriverInstance -->

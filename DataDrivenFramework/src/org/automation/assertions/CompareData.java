@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 public class CompareData {
 
-	public boolean checkURL( driver, String expURL)
+	public boolean checkURL(WebDriver driver, String expURL)
 	{
 		boolean flag = false;
 		if(driver.getCurrentUrl().equalsIgnoreCase(expURL))
